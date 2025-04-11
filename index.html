@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>QUIZ</title>
   </head>
-  <body></body>
+  <body>
+    <h1>QUIZ OF THE YEAR</h1>
+
+    <form action="">
+      <div class="question-container">
+        <h2>Question 1</h2>
+        <p>What is the capital of France?</p>
+        <input type="radio" name="q1" value="a" /> a) Berlin<br />
+        <input type="radio" name="q1" value="b" /> b) Madrid<br />
+        <input type="radio" name="q1" value="c" /> c) Paris<br />
+        <input type="radio" name="q1" value="d" /> d) Rome<br />
+      </div>
+
+      <div class="question-container">
+        <h2>Question 2</h2>
+        <p>What is the largest planet in our solar system?</p>
+        <input type="radio" name="q2" value="a" /> a) Earth<br />
+        <input type="radio" name="q2" value="b" /> b) Jupiter<br />
+        <input type="radio" name="q2" value="c" /> c) Saturn<br />
+        <input type="radio" name="q2" value="d" /> d) Mars<br />
+      </div>
+
+      <div>
+        <h2>Question 3</h2>
+        <p>What is the chemical symbol for gold?</p>
+        <input type="radio" name="q3" value="a" /> a) Au<br />
+        <input type="radio" name="q3" value="b" /> b) Ag<br />
+        <input type="radio" name="q3" value="c" /> c) Pb<br />
+        <input type="radio" name="q3" value="d" /> d) Fe<br />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Result Display -->
+    <div id="result"></div>
+
+    <script src="scripts.js"></script>
+  </body>
 </html>
